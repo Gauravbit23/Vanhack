@@ -36,3 +36,8 @@ class TestsForOverLap(unittest.TestCase):
 
 
 unittest.main()
+
+o/p
+
+Y = aX + b
+-b/a will be slope of line.
