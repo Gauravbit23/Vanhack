@@ -31,8 +31,8 @@ class TestsForOverLap(unittest.TestCase):
         self.assertEqual(result, '\n(0, 0) & (0, 0) overlaps on x-axis')
 
     def test_Integers_OverLaps(self):
-        result = overlap((-1, -3), (1, 3))
-        self.assertEqual(result, "\n(-1, -3) & (1, 3) doesn\'t overlaps on x-axis")
+        result = overlap((-1, -2), (1, 2))
+        self.assertEqual(result, "\n(-1, -2) & (1, 2) doesn\'t overlaps on x-axis")
 
 
 unittest.main()
