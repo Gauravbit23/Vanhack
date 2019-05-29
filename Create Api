@@ -86,3 +86,8 @@ def classify(text, verbose=True):
         print('\n')
 
     return similarities
+    
+//output//
+It is little bit combination of application developer part and data mining.
+create API using flask, pass the string from postman or something. Once you receive string use Url method
+to search for the string related query...and return only top 5.
