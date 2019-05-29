@@ -4,7 +4,7 @@ from twostring import ValueComparsions
 
 class TestsForStrings(unittest.TestCase):
 
-    # -------------------TESTS for Greater Function-----------------------
+    # TESTS for Greater Function
     def test1_ForGreater(self):
         strings = ValueComparsions('1.1', '1.2')
         self.assertEqual(strings.greater(), '1.2 is greater than 1.1')
@@ -17,7 +17,7 @@ class TestsForStrings(unittest.TestCase):
         strings = ValueComparsions('1.1', '0')
         self.assertTrue(strings.greater(), '1.1 is greater than 0')
 
-    # -------------------TESTS for Lesser Function-------------------------
+    # TESTS for Lesser Function
     def test1_ForLesser(self):
         strings = ValueComparsions('1.1', '1.2')
         self.assertEqual(strings.lesser(), '1.1 is lesser than 1.2')
@@ -30,7 +30,7 @@ class TestsForStrings(unittest.TestCase):
         strings = ValueComparsions('1.1', '0')
         self.assertTrue(strings.lesser(), '0 is lesser than 1.1')
 
-    # ------------TESTS for Equal Function-----------------------------
+    # TESTS for Equal Function
     def test1_ForEqual(self):
         strings = ValueComparsions('1.1', '1.2')
         self.assertEqual(strings.equal(), '1.2 is not equal to 1.1')
