@@ -1,3 +1,5 @@
+import from flask
+
 def classify(text, verbose=True):
     """Classify the input text into categories. """
 
